@@ -7,23 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E3E6D7124BDCA83005A56BF /* CustomerSapListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3E6D7024BDCA83005A56BF /* CustomerSapListViewController.swift */; };
+		8E3E6D7624BDD2AE005A56BF /* CustomerSapListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3E6D7524BDD2AE005A56BF /* CustomerSapListViewModel.swift */; };
+		BC2F73B424782A2A008272A0 /* AddAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F73B324782A2A008272A0 /* AddAccountViewController.swift */; };
+		BC2F73BA24782AF1008272A0 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F73B824782AF1008272A0 /* ENSideMenuNavigationController.swift */; };
+		BC2F73BB24782AF1008272A0 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F73B924782AF1008272A0 /* ENSideMenu.swift */; };
+		BC2F73C324782B06008272A0 /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2F73BF24782B06008272A0 /* MyNavigationController.swift */; };
 		BC38D8E824754E4900E6C2C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38D8E724754E4900E6C2C2 /* AppDelegate.swift */; };
-		BC38D8EA24754E4900E6C2C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38D8E924754E4900E6C2C2 /* SceneDelegate.swift */; };
 		BC38D8EC24754E4900E6C2C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38D8EB24754E4900E6C2C2 /* ViewController.swift */; };
 		BC38D8EF24754E4900E6C2C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC38D8ED24754E4900E6C2C2 /* Main.storyboard */; };
 		BC38D8F124754E4A00E6C2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC38D8F024754E4A00E6C2C2 /* Assets.xcassets */; };
 		BC38D8F424754E4A00E6C2C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC38D8F224754E4A00E6C2C2 /* LaunchScreen.storyboard */; };
+		BC425D80248644EA00215807 /* AuthEnableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC425D7F248644EA00215807 /* AuthEnableViewController.swift */; };
+		BC425D832486573300215807 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC425D822486573300215807 /* AuthenticationViewModel.swift */; };
+		BC594222247B9B0B007D3626 /* MyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC594221247B9B0B007D3626 /* MyMenuTableViewController.swift */; };
+		BC594225247BA48A007D3626 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC594223247BA48A007D3626 /* MenuTableViewCell.swift */; };
+		BC594226247BA48A007D3626 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC594224247BA48A007D3626 /* MenuTableViewCell.xib */; };
+		BC5D4DB4248E252800894E07 /* GeometricLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D4DB2248E252700894E07 /* GeometricLoader.swift */; };
+		BC5D4DB5248E252800894E07 /* CircleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D4DB3248E252800894E07 /* CircleLoader.swift */; };
+		BC5D4DB7248E554800894E07 /* Schmersal.db in Resources */ = {isa = PBXBuildFile; fileRef = BC5D4DB6248E554800894E07 /* Schmersal.db */; };
+		BC6D192C24ACD56E007563C2 /* CustomerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D192B24ACD56E007563C2 /* CustomerList.swift */; };
+		BC6D194024AD5A81007563C2 /* RoleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D193F24AD5A81007563C2 /* RoleViewModel.swift */; };
+		BC6D196E24ADE405007563C2 /* WebAPIUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D196D24ADE405007563C2 /* WebAPIUtility.swift */; };
+		BC6D197224AF24CC007563C2 /* ApiCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D197124AF24CC007563C2 /* ApiCalls.swift */; };
+		BC6D197924B2DEF4007563C2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D197824B2DEF4007563C2 /* RegisterViewController.swift */; };
+		BC77BAC22484EC1C007C591A /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77BAC12484EC1C007C591A /* StatusBar.swift */; };
+		BC77BAC42484F307007C591A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77BAC32484F307007C591A /* Constant.swift */; };
+		BC7A4F30247D19120001FECE /* MakeDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A4F2F247D19120001FECE /* MakeDropDown.swift */; };
+		BC7A4F33247D192C0001FECE /* DropDownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC7A4F31247D192C0001FECE /* DropDownTableViewCell.xib */; };
+		BC7A4F34247D192C0001FECE /* DropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A4F32247D192C0001FECE /* DropDownTableViewCell.swift */; };
+		BC7A4F37247D1BF50001FECE /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A4F36247D1BF50001FECE /* LanguageModel.swift */; };
+		BC7A4F41247E01490001FECE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A4F40247E01490001FECE /* Reachability.swift */; };
+		BC7A4F4C247E06100001FECE /* DataBaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A4F4B247E06100001FECE /* DataBaseHandler.swift */; };
+		BC7A4F51247E0A3A0001FECE /* DatabaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A4F50247E0A3A0001FECE /* DatabaseOperation.swift */; };
+		BC7A4F5A247E69710001FECE /* LoginLanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A4F59247E69710001FECE /* LoginLanguageViewModel.swift */; };
+		BCA656B4247EA7200045B9FC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA656B3247EA7200045B9FC /* UserModel.swift */; };
+		BCA656B7247EC1270045B9FC /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA656B6247EC1270045B9FC /* UserListViewModel.swift */; };
+		BCA656B9247F41D80045B9FC /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA656B8247F41D80045B9FC /* DropDownView.swift */; };
+		BCA656BC247F953E0045B9FC /* CustomerListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA656BB247F953E0045B9FC /* CustomerListModel.swift */; };
+		BCA656BE247F9B490045B9FC /* CustomerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA656BD247F9B490045B9FC /* CustomerListViewModel.swift */; };
+		BCA656C1247FC1CC0045B9FC /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA656C0247FC1CC0045B9FC /* SideMenuViewModel.swift */; };
+		BCBB11B72478FF9700F9783F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBB11B62478FF9700F9783F /* LoginVC.swift */; };
+		BCBB11B9247903FC00F9783F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBB11B8247903FC00F9783F /* HomeVC.swift */; };
+		BCCB2FE624B49A40007F1DB2 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB2FE524B49A40007F1DB2 /* KeyboardManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BC38D8E424754E4900E6C2C2 /* Schmersal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schmersal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3E6D7024BDCA83005A56BF /* CustomerSapListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSapListViewController.swift; sourceTree = "<group>"; };
+		8E3E6D7524BDD2AE005A56BF /* CustomerSapListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSapListViewModel.swift; sourceTree = "<group>"; };
+		BC2F73B324782A2A008272A0 /* AddAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountViewController.swift; sourceTree = "<group>"; };
+		BC2F73B824782AF1008272A0 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		BC2F73B924782AF1008272A0 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		BC2F73BF24782B06008272A0 /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		BC38D8E424754E4900E6C2C2 /* Mango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC38D8E724754E4900E6C2C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC38D8E924754E4900E6C2C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BC38D8EB24754E4900E6C2C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC38D8EE24754E4900E6C2C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC38D8F024754E4A00E6C2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC38D8F324754E4A00E6C2C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC38D8F524754E4A00E6C2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC425D7F248644EA00215807 /* AuthEnableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthEnableViewController.swift; sourceTree = "<group>"; };
+		BC425D822486573300215807 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		BC594221247B9B0B007D3626 /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewController.swift; sourceTree = "<group>"; };
+		BC594223247BA48A007D3626 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		BC594224247BA48A007D3626 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		BC5D4DB2248E252700894E07 /* GeometricLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometricLoader.swift; sourceTree = "<group>"; };
+		BC5D4DB3248E252800894E07 /* CircleLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLoader.swift; sourceTree = "<group>"; };
+		BC5D4DB6248E554800894E07 /* Schmersal.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Schmersal.db; sourceTree = "<group>"; };
+		BC6D192B24ACD56E007563C2 /* CustomerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerList.swift; sourceTree = "<group>"; };
+		BC6D193F24AD5A81007563C2 /* RoleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleViewModel.swift; sourceTree = "<group>"; };
+		BC6D196D24ADE405007563C2 /* WebAPIUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPIUtility.swift; sourceTree = "<group>"; };
+		BC6D197124AF24CC007563C2 /* ApiCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCalls.swift; sourceTree = "<group>"; };
+		BC6D197824B2DEF4007563C2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BC77BAC12484EC1C007C591A /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
+		BC77BAC32484F307007C591A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BC7A4F2F247D19120001FECE /* MakeDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeDropDown.swift; sourceTree = "<group>"; };
+		BC7A4F31247D192C0001FECE /* DropDownTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownTableViewCell.xib; sourceTree = "<group>"; };
+		BC7A4F32247D192C0001FECE /* DropDownTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownTableViewCell.swift; sourceTree = "<group>"; };
+		BC7A4F36247D1BF50001FECE /* LanguageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
+		BC7A4F40247E01490001FECE /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		BC7A4F46247E01FE0001FECE /* Schmersal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Schmersal-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC7A4F4B247E06100001FECE /* DataBaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHandler.swift; sourceTree = "<group>"; };
+		BC7A4F50247E0A3A0001FECE /* DatabaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseOperation.swift; sourceTree = "<group>"; };
+		BC7A4F54247E0C570001FECE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BC7A4F59247E69710001FECE /* LoginLanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLanguageViewModel.swift; sourceTree = "<group>"; };
+		BCA656B3247EA7200045B9FC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BCA656B6247EC1270045B9FC /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		BCA656B8247F41D80045B9FC /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		BCA656BB247F953E0045B9FC /* CustomerListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListModel.swift; sourceTree = "<group>"; };
+		BCA656BD247F9B490045B9FC /* CustomerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListViewModel.swift; sourceTree = "<group>"; };
+		BCA656C0247FC1CC0045B9FC /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		BCBB11B62478FF9700F9783F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BCBB11B8247903FC00F9783F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BCCB2FE524B49A40007F1DB2 /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,18 +113,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		232DF10FCB588372CFFD2F30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E3E6D6F24BDCA4A005A56BF /* CustomerSapList */ = {
+			isa = PBXGroup;
+			children = (
+				8E3E6D7024BDCA83005A56BF /* CustomerSapListViewController.swift */,
+			);
+			path = CustomerSapList;
+			sourceTree = "<group>";
+		};
+		8E3E6D7224BDD265005A56BF /* CustomerSapList Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E3E6D7524BDD2AE005A56BF /* CustomerSapListViewModel.swift */,
+			);
+			path = "CustomerSapList Model";
+			sourceTree = "<group>";
+		};
+		BC2F73B22478294B008272A0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BC38D8EB24754E4900E6C2C2 /* ViewController.swift */,
+				BC2F73B324782A2A008272A0 /* AddAccountViewController.swift */,
+				BCBB11B62478FF9700F9783F /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BC2F73B724782AAB008272A0 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F73B924782AF1008272A0 /* ENSideMenu.swift */,
+				BC2F73B824782AF1008272A0 /* ENSideMenuNavigationController.swift */,
+				BC2F73BF24782B06008272A0 /* MyNavigationController.swift */,
+				BC594221247B9B0B007D3626 /* MyMenuTableViewController.swift */,
+				BC594223247BA48A007D3626 /* MenuTableViewCell.swift */,
+				BC594224247BA48A007D3626 /* MenuTableViewCell.xib */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		BC2F73C424782DAA008272A0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F73B22478294B008272A0 /* Login */,
+				BC6D197324AF7A6E007563C2 /* Register */,
+				BC425D7E248644C800215807 /* Authentication */,
+				BC2F73C524782DCD008272A0 /* CustomerList */,
+				8E3E6D6F24BDCA4A005A56BF /* CustomerSapList */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BC2F73C524782DCD008272A0 /* CustomerList */ = {
+			isa = PBXGroup;
+			children = (
+				BCBB11B8247903FC00F9783F /* HomeVC.swift */,
+			);
+			path = CustomerList;
+			sourceTree = "<group>";
+		};
 		BC38D8DB24754E4900E6C2C2 = {
 			isa = PBXGroup;
 			children = (
 				BC38D8E624754E4900E6C2C2 /* Schmersal */,
 				BC38D8E524754E4900E6C2C2 /* Products */,
+				BC7A4F4D247E07F40001FECE /* Frameworks */,
+				232DF10FCB588372CFFD2F30 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		BC38D8E524754E4900E6C2C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC38D8E424754E4900E6C2C2 /* Schmersal.app */,
+				BC38D8E424754E4900E6C2C2 /* Mango.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +201,161 @@
 			isa = PBXGroup;
 			children = (
 				BC38D8E724754E4900E6C2C2 /* AppDelegate.swift */,
-				BC38D8E924754E4900E6C2C2 /* SceneDelegate.swift */,
-				BC38D8EB24754E4900E6C2C2 /* ViewController.swift */,
+				BC2F73C424782DAA008272A0 /* ViewController */,
+				BC7A4F2E247D18C60001FECE /* DropDown */,
+				BC7A4F35247D1BE80001FECE /* New User Login Model */,
+				BCA656B5247EC0DA0045B9FC /* Add Account Model */,
+				BCA656BA247F95210045B9FC /* Customer List Model */,
+				8E3E6D7224BDD265005A56BF /* CustomerSapList Model */,
+				BC2F73B724782AAB008272A0 /* SideMenu */,
+				BCA656BF247FC1860045B9FC /* SideMenu Model */,
+				BC7A4F42247E01620001FECE /* ProgressView */,
+				BC7A4F4A247E05F00001FECE /* DB Wrapper */,
+				BC425D812486570B00215807 /* Authentication Model */,
+				BC7A4F29247D16960001FECE /* Network class */,
+				BC6D192424ACC9DD007563C2 /* API Model */,
+				BCCB2FE424B49A28007F1DB2 /* KeybaordManager */,
 				BC38D8ED24754E4900E6C2C2 /* Main.storyboard */,
+				BC77BAC12484EC1C007C591A /* StatusBar.swift */,
+				BC77BAC32484F307007C591A /* Constant.swift */,
 				BC38D8F024754E4A00E6C2C2 /* Assets.xcassets */,
 				BC38D8F224754E4A00E6C2C2 /* LaunchScreen.storyboard */,
 				BC38D8F524754E4A00E6C2C2 /* Info.plist */,
 			);
 			path = Schmersal;
+			sourceTree = "<group>";
+		};
+		BC425D7E248644C800215807 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BC425D7F248644EA00215807 /* AuthEnableViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BC425D812486570B00215807 /* Authentication Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC425D822486573300215807 /* AuthenticationViewModel.swift */,
+			);
+			path = "Authentication Model";
+			sourceTree = "<group>";
+		};
+		BC6D192424ACC9DD007563C2 /* API Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D192B24ACD56E007563C2 /* CustomerList.swift */,
+				BC6D197124AF24CC007563C2 /* ApiCalls.swift */,
+			);
+			path = "API Model";
+			sourceTree = "<group>";
+		};
+		BC6D197324AF7A6E007563C2 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D197824B2DEF4007563C2 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		BC7A4F29247D16960001FECE /* Network class */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D196D24ADE405007563C2 /* WebAPIUtility.swift */,
+				BC7A4F40247E01490001FECE /* Reachability.swift */,
+			);
+			path = "Network class";
+			sourceTree = "<group>";
+		};
+		BC7A4F2E247D18C60001FECE /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A4F2F247D19120001FECE /* MakeDropDown.swift */,
+				BC7A4F32247D192C0001FECE /* DropDownTableViewCell.swift */,
+				BC7A4F31247D192C0001FECE /* DropDownTableViewCell.xib */,
+				BCA656B8247F41D80045B9FC /* DropDownView.swift */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		BC7A4F35247D1BE80001FECE /* New User Login Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A4F36247D1BF50001FECE /* LanguageModel.swift */,
+				BC6D193F24AD5A81007563C2 /* RoleViewModel.swift */,
+				BC7A4F59247E69710001FECE /* LoginLanguageViewModel.swift */,
+			);
+			path = "New User Login Model";
+			sourceTree = "<group>";
+		};
+		BC7A4F42247E01620001FECE /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				BC5D4DB3248E252800894E07 /* CircleLoader.swift */,
+				BC5D4DB2248E252700894E07 /* GeometricLoader.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		BC7A4F4A247E05F00001FECE /* DB Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A4F56247E58FC0001FECE /* DB */,
+				BC7A4F4B247E06100001FECE /* DataBaseHandler.swift */,
+				BC7A4F50247E0A3A0001FECE /* DatabaseOperation.swift */,
+			);
+			path = "DB Wrapper";
+			sourceTree = "<group>";
+		};
+		BC7A4F4D247E07F40001FECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A4F54247E0C570001FECE /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC7A4F56247E58FC0001FECE /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				BC5D4DB6248E554800894E07 /* Schmersal.db */,
+				BC7A4F46247E01FE0001FECE /* Schmersal-Bridging-Header.h */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		BCA656B5247EC0DA0045B9FC /* Add Account Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCA656B3247EA7200045B9FC /* UserModel.swift */,
+				BCA656B6247EC1270045B9FC /* UserListViewModel.swift */,
+			);
+			path = "Add Account Model";
+			sourceTree = "<group>";
+		};
+		BCA656BA247F95210045B9FC /* Customer List Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCA656BB247F953E0045B9FC /* CustomerListModel.swift */,
+				BCA656BD247F9B490045B9FC /* CustomerListViewModel.swift */,
+			);
+			path = "Customer List Model";
+			sourceTree = "<group>";
+		};
+		BCA656BF247FC1860045B9FC /* SideMenu Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCA656C0247FC1CC0045B9FC /* SideMenuViewModel.swift */,
+			);
+			path = "SideMenu Model";
+			sourceTree = "<group>";
+		};
+		BCCB2FE424B49A28007F1DB2 /* KeybaordManager */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB2FE524B49A40007F1DB2 /* KeyboardManager.swift */,
+			);
+			path = KeybaordManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +375,7 @@
 			);
 			name = Schmersal;
 			productName = Schmersal;
-			productReference = BC38D8E424754E4900E6C2C2 /* Schmersal.app */;
+			productReference = BC38D8E424754E4900E6C2C2 /* Mango.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,6 +390,7 @@
 				TargetAttributes = {
 					BC38D8E324754E4900E6C2C2 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -127,6 +419,9 @@
 			files = (
 				BC38D8F424754E4A00E6C2C2 /* LaunchScreen.storyboard in Resources */,
 				BC38D8F124754E4A00E6C2C2 /* Assets.xcassets in Resources */,
+				BC7A4F33247D192C0001FECE /* DropDownTableViewCell.xib in Resources */,
+				BC594226247BA48A007D3626 /* MenuTableViewCell.xib in Resources */,
+				BC5D4DB7248E554800894E07 /* Schmersal.db in Resources */,
 				BC38D8EF24754E4900E6C2C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +433,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7A4F5A247E69710001FECE /* LoginLanguageViewModel.swift in Sources */,
+				BC425D80248644EA00215807 /* AuthEnableViewController.swift in Sources */,
+				BC5D4DB4248E252800894E07 /* GeometricLoader.swift in Sources */,
+				BCBB11B72478FF9700F9783F /* LoginVC.swift in Sources */,
+				BC6D194024AD5A81007563C2 /* RoleViewModel.swift in Sources */,
+				BC6D196E24ADE405007563C2 /* WebAPIUtility.swift in Sources */,
+				BC2F73BB24782AF1008272A0 /* ENSideMenu.swift in Sources */,
+				BCA656BC247F953E0045B9FC /* CustomerListModel.swift in Sources */,
+				BC7A4F34247D192C0001FECE /* DropDownTableViewCell.swift in Sources */,
+				BC2F73C324782B06008272A0 /* MyNavigationController.swift in Sources */,
+				BC7A4F37247D1BF50001FECE /* LanguageModel.swift in Sources */,
+				BC7A4F30247D19120001FECE /* MakeDropDown.swift in Sources */,
+				BCCB2FE624B49A40007F1DB2 /* KeyboardManager.swift in Sources */,
+				BCA656BE247F9B490045B9FC /* CustomerListViewModel.swift in Sources */,
+				BC6D197924B2DEF4007563C2 /* RegisterViewController.swift in Sources */,
+				BC425D832486573300215807 /* AuthenticationViewModel.swift in Sources */,
+				BC5D4DB5248E252800894E07 /* CircleLoader.swift in Sources */,
 				BC38D8EC24754E4900E6C2C2 /* ViewController.swift in Sources */,
+				BC594225247BA48A007D3626 /* MenuTableViewCell.swift in Sources */,
+				BC7A4F41247E01490001FECE /* Reachability.swift in Sources */,
+				BC594222247B9B0B007D3626 /* MyMenuTableViewController.swift in Sources */,
+				BCA656B9247F41D80045B9FC /* DropDownView.swift in Sources */,
+				BC2F73B424782A2A008272A0 /* AddAccountViewController.swift in Sources */,
+				BC7A4F4C247E06100001FECE /* DataBaseHandler.swift in Sources */,
+				BC6D192C24ACD56E007563C2 /* CustomerList.swift in Sources */,
+				BC7A4F51247E0A3A0001FECE /* DatabaseOperation.swift in Sources */,
+				8E3E6D7624BDD2AE005A56BF /* CustomerSapListViewModel.swift in Sources */,
+				BC2F73BA24782AF1008272A0 /* ENSideMenuNavigationController.swift in Sources */,
+				BCA656B7247EC1270045B9FC /* UserListViewModel.swift in Sources */,
+				BC77BAC42484F307007C591A /* Constant.swift in Sources */,
+				BCBB11B9247903FC00F9783F /* HomeVC.swift in Sources */,
+				BC6D197224AF24CC007563C2 /* ApiCalls.swift in Sources */,
 				BC38D8E824754E4900E6C2C2 /* AppDelegate.swift in Sources */,
-				BC38D8EA24754E4900E6C2C2 /* SceneDelegate.swift in Sources */,
+				BCA656B4247EA7200045B9FC /* UserModel.swift in Sources */,
+				BC77BAC22484EC1C007C591A /* StatusBar.swift in Sources */,
+				BCA656C1247FC1CC0045B9FC /* SideMenuViewModel.swift in Sources */,
+				8E3E6D7124BDCA83005A56BF /* CustomerSapListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,17 +613,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AFWC5Q5F7E;
+				DEVELOPMENT_TEAM = LLJ2B69JDG;
 				INFOPLIST_FILE = Schmersal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.prosoft.mLite.Schmersal;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incedo.test.PacketTunnelTest;
+				PRODUCT_NAME = Mango;
+				SWIFT_OBJC_BRIDGING_HEADER = "Schmersal/DB Wrapper/DB/Schmersal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,17 +635,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AFWC5Q5F7E;
+				DEVELOPMENT_TEAM = LLJ2B69JDG;
 				INFOPLIST_FILE = Schmersal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.prosoft.mLite.Schmersal;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incedo.test.PacketTunnelTest;
+				PRODUCT_NAME = Mango;
+				SWIFT_OBJC_BRIDGING_HEADER = "Schmersal/DB Wrapper/DB/Schmersal-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
